@@ -2,7 +2,7 @@ import './globals.css'
 import Header from './header'
 
 export const metadata = {
-  title: 'Panavere Dao',
+  title: 'Panaverse Dao',
   description: 'Made By Muhammad Azfar Sikander',
 }
 
