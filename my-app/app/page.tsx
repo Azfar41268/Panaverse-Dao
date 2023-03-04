@@ -1,9 +1,11 @@
-
+// import Button from "./button"
+// import Wrapper from "./wrapper"
+import Hero from "./hero"
 
 export default function Home() {
   return (
-    <div className="text-teal-500 underline">
-      Hello World
-    </div>
+    <>
+      <Hero />
+    </>
   )
 }
