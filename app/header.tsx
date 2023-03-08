@@ -6,7 +6,7 @@ import Wrapper from "./wrapper"
 const Header = () => {
   return (
     <Wrapper>
-        <header className="flex justify-between bg-white py-3 sticky top-0 mb-20 items-center">
+        <header className="flex justify-between bg-white py-3 sticky top-0 mb-10 items-center">
             <div>
                 <Image src={Logo} alt="Panaverse" />
             </div>
