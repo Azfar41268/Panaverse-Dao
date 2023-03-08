@@ -6,9 +6,10 @@ const Core = () => {
   return (
     <section>
         <Wrapper>
-            <div className="mt-20">
+            <div className="mt-20 ">
                 {/* Content */}
-                <div>
+                <div className="relative">
+                    <div className="absolute bg-green-700 blur-3xl p-72 rounded-full -top-32 -left-48 opacity-10"></div>
                     <h4 className="text-base font-medium text-[#00616C]">
                       Program of Studies
                     </h4>
