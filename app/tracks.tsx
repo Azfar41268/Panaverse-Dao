@@ -72,7 +72,7 @@ const Tracks = () => {
                             <Image src={Third} alt="" />
                             <div>
                                 <h4 className="text-base font-normal text-blue-500">Specialized Program</h4>
-                                <h3 className="text-lg font-semibold max-w-[250px]">Artificial Intelligence (AI) and Deep Learning Specialization</h3>
+                                <h3 className="text-lg font-semibold max-w-[250px]">Internet of Things (IoT) and Cloud Network Specialization</h3>
                             </div>
                         </div>
                         {/* 4 */}
@@ -88,7 +88,7 @@ const Tracks = () => {
                             <Image src={Fifth} alt="" />
                             <div>
                                 <h4 className="text-base font-normal text-blue-500">Specialized Program</h4>
-                                <h3 className="text-lg font-semibold max-w-[250px]">Artificial Intelligence (AI) and Deep Learning Specialization</h3>
+                                <h3 className="text-lg font-semibold max-w-[250px]">Internet of Things (IoT) and Cloud Network Specialization</h3>
                             </div>
                         </div>
                         {/* 6 */}
@@ -96,7 +96,7 @@ const Tracks = () => {
                             <Image src={Sixth} alt="" />
                             <div>
                                 <h4 className="text-base font-normal text-blue-500">Specialized Program</h4>
-                                <h3 className="text-lg font-semibold max-w-[250px]">Artificial Intelligence (AI) and Deep Learning Specialization</h3>
+                                <h3 className="text-lg font-semibold max-w-[250px]">Web 3.0 (Blockchain) and Metaverse Specialization</h3>
                             </div>
                         </div>
                     </div>
