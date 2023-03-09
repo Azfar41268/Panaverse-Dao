@@ -52,7 +52,7 @@ const Tracks = () => {
                     {/* Right Side (6 rows) */}
                     <div>
                         {/* 1 */}
-                        <div className="flex space-x-5 mb-9">
+                        <div className="flex space-x-5 mb-9 items-center">
                             <Image src={Firsts} alt="" />
                             <div>
                                 <h4 className="text-base font-normal text-blue-500">Specialized Program</h4>
@@ -60,7 +60,7 @@ const Tracks = () => {
                             </div>
                         </div>
                         {/* 2 */}
-                        <div className="flex space-x-5 py-9 border-y-2">
+                        <div className="flex space-x-5 py-9 border-y-2 items-center">
                             <Image src={Seconds} alt="" />
                             <div>
                                 <h4 className="text-base font-normal text-blue-500">Specialized Program</h4>
@@ -68,7 +68,7 @@ const Tracks = () => {
                             </div>
                         </div>
                         {/* 3 */}
-                        <div className="flex space-x-5 py-9 border-y-2">
+                        <div className="flex space-x-5 py-9 border-y-2 items-center">
                             <Image src={Third} alt="" />
                             <div>
                                 <h4 className="text-base font-normal text-blue-500">Specialized Program</h4>
@@ -76,7 +76,7 @@ const Tracks = () => {
                             </div>
                         </div>
                         {/* 4 */}
-                        <div className="flex space-x-5 py-9 border-y-2">
+                        <div className="flex space-x-5 py-9 border-y-2 items-center">
                             <Image src={Fourth} alt="" />
                             <div>
                                 <h4 className="text-base font-normal text-blue-500">Specialized Program</h4>
@@ -84,7 +84,7 @@ const Tracks = () => {
                             </div>
                         </div>
                         {/* 5 */}
-                        <div className="flex space-x-5 py-9 border-y-2">
+                        <div className="flex space-x-5 py-9 border-y-2 items-center">
                             <Image src={Fifth} alt="" />
                             <div>
                                 <h4 className="text-base font-normal text-blue-500">Specialized Program</h4>
@@ -92,7 +92,7 @@ const Tracks = () => {
                             </div>
                         </div>
                         {/* 6 */}
-                        <div className="flex space-x-5 py-9 border-y-2 mb-10">
+                        <div className="flex space-x-5 py-9 border-y-2 mb-10 items-center">
                             <Image src={Sixth} alt="" />
                             <div>
                                 <h4 className="text-base font-normal text-blue-500">Specialized Program</h4>
