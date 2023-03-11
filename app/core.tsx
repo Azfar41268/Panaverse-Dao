@@ -28,9 +28,9 @@ const Core = () => {
                     <Button text="Learn More" />
                 </div>
                 {/* Boxes */}
-                <div className="flex flex-wrap flex-col md:space-x-40 md:flex-row justify-between items-center">
+                <div className="flex flex-wrap flex-col md:space-x-3 md:gap-x-0 lg:flex-row lg:justify-between items-center">
                     {/* Box 1 */}
-                    <div className="border relative rounded-md w-full md:w-3/12 pl-2 md:pl-10 py-20 my-20 hover:scale-105 duration-200 active:scale-105 duration-200">
+                    <div className="border relative rounded-md w-full lg:w-3/12 pl-2 md:pl-10 py-20 my-20 hover:scale-105 duration-200 active:scale-105 duration-200">
                         <h4 className="font-semibold">
                           Quarter I
                         </h4>
@@ -40,7 +40,7 @@ const Core = () => {
                         <div className="absolute -top-10 right-20 text-[204px] font-semibold opacity-5">1</div>
                     </div>
                     {/* Box 2 */}
-                    <div className="border relative rounded-md w-full md:w-3/12 pl-2 md:pl-10 py-20 my-20 hover:scale-105 duration-200 active:scale-105 duration-200">
+                    <div className="border relative rounded-md w-full lg:w-3/12 pl-2 md:pl-10 py-20 my-20 hover:scale-105 duration-200 active:scale-105 duration-200">
                         <h4 className="font-semibold">
                           Quarter II
                         </h4>
@@ -50,7 +50,7 @@ const Core = () => {
                         <div className="absolute -top-10 right-20 text-[204px] font-semibold opacity-5">2</div>
                     </div>
                     {/* Box 3 */}
-                    <div className="border relative rounded-md w-full md:w-3/12 pl-2 md:pl-10 py-20 my-20 hover:scale-105 duration-200 active:scale-105 duration-200">
+                    <div className="border relative rounded-md w-full lg:w-3/12 pl-2 md:pl-10 py-20 my-20 hover:scale-105 duration-200 active:scale-105 duration-200">
                         <h4 className="font-semibold">
                           Quarter III
                         </h4>

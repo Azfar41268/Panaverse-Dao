@@ -21,7 +21,7 @@ const Tracks = () => {
                     <p className="mb-20 whitespace-pre-line text-[#4A5B5C] font-medium text-lg">{text}</p>
                 </div>
                 {/* Lower Content */}
-                <div className="flex flex-wrap space-x-12">
+                <div className="flex flex-wrap sm:space-x-12 md:space-x-6 space-x-0">
                     {/* Left Side */}
                     <div className="w-full md:w-8/12 border rounded-xl mb-20">
                         <div className="py-12 px-16">
@@ -50,7 +50,7 @@ const Tracks = () => {
                         </div>
                     </div>
                     {/* Right Side (6 rows) */}
-                    <div>
+                    <div className="w-full md:w-3/12 flex md:flex-col flex-wrap flex-row">
                         {/* 1 */}
                         <div className="flex space-x-5 mb-9 items-center">
                             <Image src={Firsts} alt="" />
@@ -60,7 +60,7 @@ const Tracks = () => {
                             </div>
                         </div>
                         {/* 2 */}
-                        <div className="flex space-x-5 py-9 border-y-2 items-center">
+                        <div className="flex space-x-5 py-9 sm:px-auto border-y-2 items-center">
                             <Image src={Seconds} alt="" />
                             <div>
                                 <h4 className="text-base font-normal text-blue-500">Specialized Program</h4>
