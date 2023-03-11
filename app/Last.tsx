@@ -9,13 +9,13 @@ const Last = () => {
   return (
     <section>
         <Wrapper>
-            <div className="flex flex-wrap justify-around mb-20 relative">
+            <div className="flex flex-wrap justify-around mb-20">
                 {/* Left Side */}
                 <div>
                     <Image src={Lat} alt="" />
                 </div>
                 {/* Right Side */}
-                <div className="max-w-screen-md">
+                <div className="max-w-screen-md relative">
                     <h1 className="text-4xl font-bold whitespace-pre-line">{text}</h1>
                     <h4 className="text-slate-500 font-medium text-base mb-20">As a graduate of this program, you will own valuable products such as Full-Stack App Templates, 
                         AR and VR Experiences, and APIs that are marketed globally by the Panaverse DAO. You will also have 
@@ -43,8 +43,8 @@ const Last = () => {
                             <h2 className="font-semibold text-lg">Boosting Economy.</h2>
                         </li>
                     </ul>
+                    <div className="rounded-full bg-blue-700 blur-3xl absolute p-52 sm:p-80  -right-52 top-40 opacity-10"></div>
                 </div>
-                <div className="rounded-full bg-blue-700 blur-3xl absolute p-80 -right-52 -top-10 opacity-10"></div>
             </div>
         </Wrapper>
     </section>
