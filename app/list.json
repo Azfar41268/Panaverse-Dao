@@ -1,0 +1,17 @@
+[
+    {
+        "course" : "Web 3.0 (Blockchain) and Metaverse Specialization",
+        "ref" : "./courses/web3",
+        "styling" : "text-blue-500 font-semibold flex justify-center p-4"
+    },
+    {
+        "course" : "Artificial Intelligence (AI) and Deep Learning Specialization",
+        "ref" : "./courses/ai",
+        "styling" : "text-blue-500 font-semibold flex justify-center p-4"
+    },
+    {
+        "course" : "Internet of Things (IoT) and Cloud Network Specialization",
+        "ref" : "./courses/iot",
+        "styling" : "text-blue-500 font-semibold flex justify-center p-4"
+    }
+]

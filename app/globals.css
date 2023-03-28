@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+@media (min-width: 320px) {
+    .xs\:w-xs {
+        max-width: 20rem/* 320px */;
+    }
+}
+
+@media (min-width: 320px) {
+    .xs\:mt-40 {
+        margin-top: 10rem/* 160px */;
+    }
+}
