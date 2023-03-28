@@ -1,4 +1,5 @@
 import Wrapper from "@/app/wrapper"
+import Quarters from "../../Box"
 
 
 function Course() {
@@ -60,6 +61,16 @@ function Course() {
                     <br />
                     <a className="text-blue-500 underline" href="https://brockherion.dev/blog/posts/stop-building-rest-apis-for-your-next-apps/">Stop building REST APIs for your Next.js apps, use tRPC instead</a>
                     </p>
+                    {/* Right Side */}
+                    <div className="lg:w-3/12 h-full">
+                        <div className="border shadow-xl p-5 h-[360px] rounded-lg sticky">
+                            <h2 className="text-2xl font-bold mb-3">Program Structure</h2>
+                            <p className="text-lg text-slate-600 font-medium mb-3">Every participant of the program will cover the following 3 qaurters.</p>
+                            <a href="#"><Quarters text="Quarter I" insideBox="Q1" /></a>
+                            <a href="./q2"><Quarters text="Quarter II" insideBox="Q2" /></a>
+                            <a href="./q3"><Quarters text="Quarter III" insideBox="Q3" /></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </Wrapper>
