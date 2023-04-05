@@ -1,5 +1,5 @@
 import Wrapper from "@/app/wrapper"
-import Quarters from "../../Box"
+import Quarters from "../Box"
 import Link from "next/link"
 
 function Course() {

@@ -1,12 +1,11 @@
 import Wrapper from "@/app/wrapper"
-import Quarters from "../../Box"
-import Link from "next/link"
+import Quarters from "./Box"
 
 function Course() {
   return (
     <div>
         <Wrapper>
-            <div className="flex flex-wrap gap-x-28">
+            <div className="flex flex-wrap gap-x-48">
                 {/* Left Side */}
                 <div className="lg:w-7/12">
                     <h2 className="text-blue-500 text-lg font-bold mb-3">CS-101: Object-Oriented Programming using TypeScript</h2>
@@ -134,30 +133,13 @@ function Course() {
                     <a className="text-blue-500 underline" href="https://github.com/panaverse/learn-typescript">learn-typescript</a></p>
                 </div>
                 {/* Right Side */}
-                <div className="lg:w-4/12 z-10 lg:mt-0 mt-10">
-                    <div className="sticky">
-                        <div className="flex flex-col border shadow-xl rounded-lg py-6 px-6">
-                            <h2 className="font-bold text-xl mb-4">Program Structure</h2>
-                            <p className="font-medium text-slate-500 text-base mb-5">After completing the first three quarters the participants will select one or more specializations consisting of two courses each.</p>
-                            {/* Boxes */}
-                            <div>
-                                <a href="#">
-                                    <Quarters insideBox="Q1" text="Quarter I" /> 
-                                </a>
-                                <a href="../Quarters/q2">
-                                    <Quarters insideBox="Q2" text="Quarter II" />
-                                </a>
-                                <a href="../Quarters/q3">
-                                    <Quarters insideBox="Q3" text="Quarter III" /> 
-                                </a>
-                                <a href="../Quarters/q4">
-                                    <Quarters insideBox="Q4" text="Quarter IV" /> 
-                                </a>
-                                <a href="../Quarters/q5">
-                                    <Quarters insideBox="Q5" text="Quarter V" /> 
-                                </a>
-                            </div>
-                        </div>
+                <div className="lg:w-3/12 h-full">
+                    <div className="border shadow-xl p-5 h-[360px] rounded-lg sticky">
+                        <h2 className="text-2xl font-bold mb-3">Program Structure</h2>
+                        <p className="text-lg text-slate-600 font-medium mb-3">Every participant of the program will cover the following 3 qaurters.</p>
+                        <a href="#"><Quarters text="Quarter I" insideBox="Q1" /></a>
+                        <a href="./q2"><Quarters text="Quarter II" insideBox="Q2" /></a>
+                        <a href="./q3"><Quarters text="Quarter III" insideBox="Q3" /></a>
                     </div>
                 </div>
             </div>

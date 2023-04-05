@@ -1,8 +1,12 @@
-import React from 'react'
+import Course from "./course"
+import Hero from "./hero"
 
 function Quarter2() {
   return (
-    <div>Quarter2</div>
+    <div>
+      <Hero />
+      <Course />
+    </div>
   )
 }
 
