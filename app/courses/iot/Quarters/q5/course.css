@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+li {
+    list-style-type: disc;
+    margin-left: 50px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.num {
+    list-style-type: decimal;
+}
+
+.lef50 {
+    margin-left: 50px
+}
+
+b {
+    font-weight: 600;
+}

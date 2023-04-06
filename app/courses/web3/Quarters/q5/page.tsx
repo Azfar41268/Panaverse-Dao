@@ -1,8 +1,12 @@
-
+import Hero from "./hero"
+import Course from "./course"
 
 function Quarter5() {
   return (
-    <div>Quarter5</div>
+    <div>
+      <Hero />
+      <Course />
+    </div>
   )
 }
 
