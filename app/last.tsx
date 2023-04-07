@@ -11,7 +11,7 @@ const Last = () => {
         <Wrapper>
             <div className="flex flex-wrap justify-around mb-20 items-center">
                 {/* Left Side */}
-                <div>
+                <div className="hover:scale-105 duration-300">
                     <Image src={Lat} alt="" />
                 </div>
                 {/* Right Side */}
@@ -43,7 +43,7 @@ const Last = () => {
                             <h2 className="font-semibold text-lg">Boosting Economy.</h2>
                         </li>
                     </ul>
-                    <div className="rounded-full bg-blue-700 blur-3xl absolute p-52 sm:p-80  -right-52 top-40 opacity-10"></div>
+                    <div className="rounded-full bg-blue-700 blur-3xl absolute p-52 sm:p-80 -right-52 top-0 opacity-10"></div>
                 </div>
             </div>
         </Wrapper>

@@ -6,9 +6,9 @@ function Course() {
   return (
     <div>
         <Wrapper>
-            <div className="flex gap-x-28">
+            <div className="flex flex-wrap gap-x-28">
                 {/* Left Side */}
-                <div className="lg:w-7/12">
+                <div className="w-full lg:w-7/12 order-last lg:order-none mt-10 lg:mt-5">
                     <h2 className="text-xl font-semibold text-blue-500 mt-5 mb-6">
                         AI-361: Deep Learning and MLOps
                     </h2>
@@ -18,13 +18,13 @@ function Course() {
                     <p className="text-lg text-slate-600 mb-10">
                         This course will help you understand the capabilities, challenges, and consequences of deep learning and prepare you to participate in the development of leading-edge AI technology. We will finish the program by learning how to envision, create, and maintain integrated systems that run constantly in production. Production systems must manage constantly changing data, in stark contrast to typical machine learning modeling. The production system must also operate continuously at the lowest possible cost while delivering the highest possible performance.
                     </p>
-                    <div className="flex mb-10">
-                        <div className="basis-1/2 border-4 border-blue-500 px-10 py-12 justify-between rounded-l-lg">
+                    <div className="flex flex-col lg:flex-row mb-10">
+                        <div className="basis-1/2 border-4 border-blue-500 px-10 py-12 justify-between rounded-t-lg lg:rounded-tr-none lg:rounded-l-lg">
                             <h2 className="text-4xl font-bold mt-3">
                                 Specialized Track
                             </h2>
                         </div>
-                        <div className="basis-1/2 flex flex-col justify-between bg-blue-500 border-4 border-blue-500 rounded-r-lg px-10 py-12">
+                        <div className="basis-1/2 flex flex-col justify-between bg-blue-500 border-4 border-blue-500 rounded-b-lg lg:rounded-bl-none lg:rounded-r-lg px-10 py-12">
                             <h3 className="text-white text-3xl font-semibold">
                                 Duration
                             </h3>

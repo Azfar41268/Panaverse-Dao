@@ -84,7 +84,7 @@ function Course() {
                         <br />
                         Also write extensive tests, for example we will simply send a transaction of 1 ETH from a random account to the contract. After the transaction, we should expect the account to have received Pako, while the contract's balance should have been reduced.</h3>
                         <h3 className="text-lg font-medium mb-4">Note: Before you get started writing the token contract we suggest you review the access control</h3>
-                        <a className="text-blue-500 underline text-lg" href="https://docs.openzeppelin.com/contracts/4.x/access-control">https://docs.openzeppelin.com/contracts/4.x/access-control</a>
+                        <a className="text-blue-500 underline text-lg" href="https://docs.openzeppelin.com/contracts/4.x/access-control">Access Control Link</a>
                         <h3 className="text-xl font-semibold mt-3 mb-4">Project Part 5: Trying it with MetaMask</h3>
                         <h3 className="text-lg text-slate-500 mb-4">While it's always good to test your code, it's often more satisfying to see the results of your work wrapped in a nice UI. Let's see how we can deploy our contracts and get some Pako tokens into our MetaMask wallet!
                         <br />
@@ -109,7 +109,7 @@ function Course() {
                         <br />
                         After confirming that you want to add the token, you should be able to see your Pako balance right next to your ETH balance in the wallet. How cool!</h3>
                         <h3 className="text-xl font-semibold mb-4">Project Part 6: Trying it with Multisignature Wallets</h3>
-                        <h3 className="text-lg text-slate-500 font-medium mb-4">Read <a className="text-blue-500 underline" href="https://www.coindesk.com/tech/2020/11/10/multisignature-wallets-can-keep-your-coins-safer-if-you-use-them-right/">https://www.coindesk.com/tech/2020/11/10/multisignature-wallets-can-keep-your-coins-safer-if-you-use-them-right/</a>
+                        <h3 className="text-lg text-slate-500 font-medium mb-4">Read <a className="text-blue-500 underline" href="https://www.coindesk.com/tech/2020/11/10/multisignature-wallets-can-keep-your-coins-safer-if-you-use-them-right/">This Page</a>
                         <br />
                         <a className="text-blue-500 underline" href="https://gnosis-safe.io/">Now use Gnosis Safe</a> with multi-sigs to do what you did in the last part.</h3>
                         <h3 className="text-xl font-semibold mt-3 mb-4">Project Part 7: Sending Tokens using Ethers.js</h3>

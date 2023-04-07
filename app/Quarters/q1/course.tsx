@@ -5,18 +5,18 @@ function Course() {
   return (
     <div>
         <Wrapper>
-            <div className="flex flex-wrap gap-x-48">
+            <div className="flex flex-wrap gap-x-28">
                 {/* Left Side */}
-                <div className="lg:w-7/12">
+                <div className="max-w-full lg:w-7/12 order-last mt-20 lg:mt-5 lg:order-none">
                     <h2 className="text-blue-500 text-lg font-bold mb-3">CS-101: Object-Oriented Programming using TypeScript</h2>
                     <h1 className="text-5xl font-bold mb-4">Course Description: </h1>
                     <h4 className="text-slate-600 text-lg font-medium mb-3">We will start the program by learning the fundamentals of Object-Oriented programming using JavaScript and TypeScript. We will also understand the latest Web trends i.e. Web 3.0 and Metaverse concepts and try to understand their working from the perspective of the users.</h4>
                     <div className="flex flex-col lg:flex-row mb-10">
-                        <div className="flex flex-col basis-1/2 border-4 border-blue-500 rounded-l-lg pt-12 px-12 pb-10 items-start justify-between">
+                        <div className="flex flex-col basis-1/2 border-4 border-blue-500 rounded-t-lg lg:rounded-tr-none lg:rounded-l-lg pt-12 px-12 pb-10 items-start justify-between">
                             <h2 className="font-bold text-4xl mb-2">Core Track</h2>
                             <h3 className="text-blue-500 text-lg">(Specialized Tracks)</h3>
                         </div>
-                        <div className="flex flex-col basis-1/2 border-4 bg-blue-500 border-blue-500 rounded-r-lg pt-12 px-12 pb-10 justify-between">
+                        <div className="flex flex-col basis-1/2 border-4 bg-blue-500 border-blue-500 rounded-b-lg lg:rounded-bl-none lg:rounded-r-lg pt-12 px-12 pb-10 justify-between">
                             <h2 className="text-3xl font-bold text-white mb-2">Duration</h2>
                             <h3 className="text-lg text-white">13 weeks</h3>
                         </div>
@@ -80,61 +80,63 @@ function Course() {
                     <br />
                     <br />
                     During the Quarter Break, we do the following Assignments:</p>
-                    <p className="text-lg text-slate-600 ml-7 mb-1">1. https://github.com/panaverse/learn-nextjs/tree/main/assignment00_cloud_to_edge
-                    <br />
-                    2. https://github.com/panaverse/learn-nextjs/tree/main/assignment01_todo_app
-                    <br />
-                    3. https://github.com/panaverse/styling-nextjs-projects/tree/main/project00_pricing_ui
-                    <br />
-                    4. Build a Panaverse DAO Syllabus Website using Next.js 13 given the content from the following document: <a className="text-blue-500 underline" href="https://docs.google.com/document/d/13Z4tMKQmZpMEsOc1Y_qAXbOstRolGIFupHxQFgAFl98/edit?usp=sharing">https://docs.google.com/document/d/13Z4tMKQmZpMEsOc1Y_qAXbOstRolGIFupHxQFgAFl98/edit?usp=sharing</a></p>
-                    <h4 className="text-lg text-slate-600 mb-1">The best-developed Website will be hosted on www.panaverse.co domain.</h4>
-                    <p className="text-slate-600 text-lg ml-7 mb-2">5. Build a new PIAIC Website using Next.js 13 given the content from the current PIAIC Website and from the following document: <a className="text-blue-500 underline" href="https://docs.google.com/document/d/13Z4tMKQmZpMEsOc1Y_qAXbOstRolGIFupHxQFgAFl98/edit?usp=sharing">https://docs.google.com/document/d/13Z4tMKQmZpMEsOc1Y_qAXbOstRolGIFupHxQFgAFl98/edit?usp=sharing</a></p>
-                    <p className="text-lg text-slate-600 mb-6">The best-developed Website will be hosted on <a className="text-blue-500 underline" href="www.piaic.org">www.piaic.org</a> domain.
-                    <br />
-                    After completing the above Five Assignments everyone will appear in the following two Quizzes covering Github and TypeScript:</p>
-                    <h2 className="text-3xl font-semibold mb-6">Fundamentals of Version Control with Git (Recorded Videos)</h2>
-                    <p className="text-lg text-slate-600 mb-20"><a className="text-blue-500 underline" href="https://www.youtube.com/playlist?list=PLKueo-cldy_HjRnPUL4G3pWHS7FREAizF">Version Control using Git and GitHub By Sir Zeeshan Hanif (Watch Recorded Videos)</a>
-                    <br />
-                    Chapters 1, 2, 3, and 4 Learn Version Control with Git: A step-by-step course for the complete beginner by Tobias Günther
-                    <br />
-                    <br />
-                    <b className="text-black">We will also cover these readings:</b>
-                    <br />
-                    <a className="text-blue-500 underline" href="https://help.github.com/articles/markdown-basics/">Markdown Basics</a>
-                    <br />
-                    <a className="text-blue-500 underline" href="http://stackoverflow.com/questions/5009600/difference-between-fork-and-branch-on-github">Difference between fork and branch on github</a>
-                    <br />
-                    <a className="text-blue-500 underline" href="http://stackoverflow.com/questions/3329943/git-branch-fork-fetch-merge-rebase-and-clone-what-are-the-differences">Git branch, fork, fetch, merge, rebase and clone what are the differences</a>
-                    <br />
-                    <a className="text-blue-500 underline" href="https://git-scm.com/book/en/v2/Git-Branching-Rebasing">Git Branching Rebasing</a>
-                    <br />
-                    <a className="text-blue-500 underline" href="http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches#Tracking-Branches">Git Branching Remote Branches</a>
-                    <br />
-                    <a className="text-blue-500 underline" href="https://try.github.io/levels/1/challenges/1">For practice.</a>
-                    <br />
-                    <b className="text-black">Homework:</b>
-                    <br />
-                    <a className="text-blue-500 underline" href="https://www.datacamp.com/courses/introduction-to-git-for-data-science">introduction to git for data science</a>
-                    <br />
-                    <b className="text-black">Git Cheatsheet</b>
-                    <br />
-                    <a className="text-blue-500 underline" href="https://www.kdnuggets.com/2022/11/git-data-science-cheatsheet.html">Git data science cheatsheet.html</a>
-                    <br />
-                    <br />
-                    TypeScript Proficiency Quiz
-                    <br />
-                    Total Questions: 63
-                    <br />
-                    Duration: 120 minutes
-                    <br />
-                    <br />
-                    <b className="text-black">Study Material:</b>
-                    <br />
-                    <a className="text-blue-500 underline" href="https://github.com/panaverse/learn-typescript">learn-typescript</a></p>
+                    <p className="text-lg text-slate-600 ml-7 mb-1">
+                        1. <a className="text-blue-500 underline" href="https://github.com/panaverse/learn-nextjs/tree/main/assignment00_cloud_to_edge">Assignment 1 (Cloud to Edge)</a>
+                        <br />
+                        2. <a className="text-blue-500 underline" href="https://github.com/panaverse/learn-nextjs/tree/main/assignment01_todo_app"> Assignment 2 (Todo App)</a>
+                        <br />
+                        3. <a className="text-blue-500 underline" href="https://github.com/panaverse/styling-nextjs-projects/tree/main/project00_pricing_ui">Assignment 3 (Pricing UI)</a>
+                        <br />
+                        4. Build a Panaverse DAO Syllabus Website using Next.js 13 given the content from the following document: <a className="text-blue-500 underline" href="https://docs.google.com/document/d/13Z4tMKQmZpMEsOc1Y_qAXbOstRolGIFupHxQFgAFl98/edit?usp=sharing">Click Here</a></p>
+                        <h4 className="text-lg text-slate-600 mb-1">The best-developed Website will be hosted on www.panaverse.co domain.</h4>
+                        <p className="text-slate-600 text-lg ml-7 mb-2 max-w-xs">5. Build a new PIAIC Website using Next.js 13 given the content from the current PIAIC Website and from the following document: <a className="text-blue-500 underline" href="https://docs.google.com/document/d/13Z4tMKQmZpMEsOc1Y_qAXbOstRolGIFupHxQFgAFl98/edit?usp=sharing">Click Here</a></p>
+                        <p className="text-lg text-slate-600 mb-6">The best-developed Website will be hosted on <a className="text-blue-500 underline" href="www.piaic.org">www.piaic.org</a> domain.
+                        <br />
+                        After completing the above Five Assignments everyone will appear in the following two Quizzes covering Github and TypeScript:</p>
+                        <h2 className="text-3xl font-semibold mb-6">Fundamentals of Version Control with Git (Recorded Videos)</h2>
+                        <p className="text-lg text-slate-600 mb-20"><a className="text-blue-500 underline" href="https://www.youtube.com/playlist?list=PLKueo-cldy_HjRnPUL4G3pWHS7FREAizF">Version Control using Git and GitHub By Sir Zeeshan Hanif (Watch Recorded Videos)</a>
+                        <br />
+                        Chapters 1, 2, 3, and 4 Learn Version Control with Git: A step-by-step course for the complete beginner by Tobias Günther
+                        <br />
+                        <br />
+                        <b className="text-black">We will also cover these readings:</b>
+                        <br />
+                        <a className="text-blue-500 underline" href="https://help.github.com/articles/markdown-basics/">Markdown Basics</a>
+                        <br />
+                        <a className="text-blue-500 underline" href="http://stackoverflow.com/questions/5009600/difference-between-fork-and-branch-on-github">Difference between fork and branch on github</a>
+                        <br />
+                        <a className="text-blue-500 underline" href="http://stackoverflow.com/questions/3329943/git-branch-fork-fetch-merge-rebase-and-clone-what-are-the-differences">Git branch, fork, fetch, merge, rebase and clone what are the differences</a>
+                        <br />
+                        <a className="text-blue-500 underline" href="https://git-scm.com/book/en/v2/Git-Branching-Rebasing">Git Branching Rebasing</a>
+                        <br />
+                        <a className="text-blue-500 underline" href="http://git-scm.com/book/en/v2/Git-Branching-Remote-Branches#Tracking-Branches">Git Branching Remote Branches</a>
+                        <br />
+                        <a className="text-blue-500 underline" href="https://try.github.io/levels/1/challenges/1">For practice.</a>
+                        <br />
+                        <b className="text-black">Homework:</b>
+                        <br />
+                        <a className="text-blue-500 underline" href="https://www.datacamp.com/courses/introduction-to-git-for-data-science">introduction to git for data science</a>
+                        <br />
+                        <b className="text-black">Git Cheatsheet</b>
+                        <br />
+                        <a className="text-blue-500 underline" href="https://www.kdnuggets.com/2022/11/git-data-science-cheatsheet.html">Git data science cheatsheet.html</a>
+                        <br />
+                        <br />
+                        TypeScript Proficiency Quiz
+                        <br />
+                        Total Questions: 63
+                        <br />
+                        Duration: 120 minutes
+                        <br />
+                        <br />
+                        <b className="text-black">Study Material:</b>
+                        <br />
+                        <a className="text-blue-500 underline" href="https://github.com/panaverse/learn-typescript">learn-typescript</a>
+                    </p>
                 </div>
                 {/* Right Side */}
-                <div className="lg:w-3/12 h-full">
-                    <div className="border shadow-xl p-5 h-[360px] rounded-lg sticky">
+                <div className="lg:w-3/12 h-full mt-10 lg:mt-5">
+                    <div className="border shadow-xl p-5 h-auto rounded-lg sticky">
                         <h2 className="text-2xl font-bold mb-3">Program Structure</h2>
                         <p className="text-lg text-slate-600 font-medium mb-3">Every participant of the program will cover the following 3 qaurters.</p>
                         <a href="#"><Quarters text="Quarter I" insideBox="Q1" /></a>

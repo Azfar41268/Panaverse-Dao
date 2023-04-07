@@ -6,8 +6,8 @@ function Course() {
   return (
     <div>
         <Wrapper>
-            <div className="flex gap-x-28">
-                <div className="lg:w-8/12">
+            <div className="flex flex-wrap gap-x-28">
+                <div className="w-full lg:w-7/12 order-last lg:order-none">
                     <h2 className="text-xl font-semibold text-blue-500 mt-10 mb-4">AC-361: Embedded Programming using C and Rust</h2>
                     <h1 className="text-5xl font-bold mb-6">Course Description: </h1>
                     <p className="text-lg text-slate-600 mb-10">
@@ -16,11 +16,11 @@ function Course() {
                         in electronics, microcontrollers, and embedded programming. It is a fast-paced, thorough introduction to programming with C and Rust that will have you writing programs, 
                         solving problems, burning your code on microcontrollers, playing with GPIOs, and making things that work in no time.
                     </p>
-                    <div className="flex mb-10">
-                        <div className="basis-1/2 justify-between border-4 border-blue-500 rounded-l-lg p-10">
+                    <div className="flex flex-col lg:flex-row mb-10">
+                        <div className="basis-1/2 justify-between border-4 border-blue-500 rounded-t-lg lg:rounded-tr-none lg:rounded-l-lg p-10">
                             <h1 className="text-4xl font-bold mt-4 ml-4">Specialized Track</h1>
                         </div>
-                        <div className="basis-1/2 flex flex-col justify-between border-4 border-blue-500 rounded-r-lg p-10 bg-blue-500">
+                        <div className="basis-1/2 flex flex-col justify-between border-4 border-blue-500 rounded-b-lg lg:rounded-bl-none lg:rounded-r-lg p-10 bg-blue-500">
                             <h2 className="text-3xl text-white font-semibold">
                                 Duration
                             </h2>
@@ -37,7 +37,7 @@ function Course() {
                     </h3>
                     <p className="text-lg text-slate-600 mb-1">
                         <a className="text-blue-500 underline" href="https://docs.google.com/presentation/d/14OcW4HfS2i1Db1uKOU6SrckFEFjhSLMgfnHYB3XlEZo/edit?usp=sharing">
-                            https://docs.google.com/presentation/d/14OcW4HfS2i1Db1uKOU6SrckFEFjhSLMgfnHYB3XlEZo/edit?usp=sharing
+                            Presentation Link
                         </a>
                     </p>
                     <ul className="mb-2">
@@ -126,14 +126,14 @@ function Course() {
                     </p>
                     <ul className="mb-5">
                         <li><a className="text-blue-500 underline" href="https://randomnerdtutorials.com/wifimanager-with-esp8266-autoconnect-custom-parameter-and-manage-your-ssid-and-password/">Connecting your hardware to wifi</a>.</li>
-                        <li><a className="text-blue-500 underline" href="https://randomnerdtutorials.com/esp8266-nodemcu-digital-inputs-outputs-arduino/#:~:text=ESP8266%20NodeMCU%20Read%20Digital%20Inputs,number">Reading data from GPIOs</a>( .%20you%20are%20referring%20to. )</li>
+                        <li><a className="text-blue-500 underline" href="https://randomnerdtutorials.com/esp8266-nodemcu-digital-inputs-outputs-arduino/#:~:text=ESP8266%20NodeMCU%20Read%20Digital%20Inputs,number">Reading data from GPIOs</a></li>
                         <li>Controlling LEDs.</li>
                         <li><a className="text-blue-500 underline" href="https://randomnerdtutorials.com/esp32-dht11-dht22-temperature-humidity-sensor-arduino-ide/">Reading data from digital sensors.</a></li>
                         <li>Cloud data logging.</li>
                         <ul className="lef50">
-                            <li><a className="text-blue-500 underline" href="https://tttapa.github.io/ESP8266/Chap16%20-%20Data%20Logging.html">https://tttapa.github.io/ESP8266/Chap16%20-%20Data%20Logging.html</a></li>
-                            <li><a className="text-blue-500 underline" href="https://circuitdigest.com/microcontroller-projects/nodemcu-datalogger-to-save-temperature-and-pressure-data-on-thinger-io-cloud-platform">https://circuitdigest.com/microcontroller-projects/nodemcu-datalogger-to-save-temperature-and-pressure-data-on-thinger-io-cloud-platform</a></li>
-                            <li><a className="text-blue-500 underline" href="https://iotdesignpro.com/projects/nodemcu-data-logger-to-upload-data-on-webserver">https://iotdesignpro.com/projects/nodemcu-data-logger-to-upload-data-on-webserver</a></li>
+                            <li><a className="text-blue-500 underline" href="https://tttapa.github.io/ESP8266/Chap16%20-%20Data%20Logging.html">ESP8266 ( Beginner's Guide )</a></li>
+                            <li><a className="text-blue-500 underline" href="https://circuitdigest.com/microcontroller-projects/nodemcu-datalogger-to-save-temperature-and-pressure-data-on-thinger-io-cloud-platform">Micro-Controller Projects</a></li>
+                            <li><a className="text-blue-500 underline" href="https://iotdesignpro.com/projects/nodemcu-data-logger-to-upload-data-on-webserver">Further Projects (Uploading Data to Webserver)</a></li>
                         </ul>
                         <li><a className="text-blue-500 underline" href="https://github.com/adesolasamuel/NodeMCU-DHT-Data-to-Arduino-IoT-Cloud">Displaying data on the cloud.</a></li>
                         <li><a className="text-blue-500 underline" href="https://www.instructables.com/Control-ESP8266-Over-the-Internet-from-Anywhere/">Controlling controller remotely.</a></li>
@@ -163,7 +163,7 @@ function Course() {
                     </ul>
                 </div>
                 {/* Right Side */}
-                <div className="lg:w-3/12 z-10 lg:mt-0 mt-10">
+                <div className="lg:w-3/12 lg:mt-0 mt-10">
                     <div className="sticky">
                         <div className="flex flex-col border shadow-xl rounded-lg py-6 px-6">
                             <h2 className="font-bold text-xl mb-4">Program Structure</h2>

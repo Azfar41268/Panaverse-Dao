@@ -6,20 +6,20 @@ function Course() {
   return (
     <div>
         <Wrapper>
-            <div className="flex gap-x-28">
+            <div className="flex flex-wrap gap-x-28">
                 {/* Left Side */}
-                <div className="lg:w-7/12 lg:order-none order-last">
+                <div className="w-full lg:w-7/12 lg:order-none order-last">
                     <h2 className="mt-10 text-xl font-semibold text-blue-500 mb-5">W2-201: Developing Planet-Scale Web 2.0 Serverless Cloud Cloud Apps and APIs using Next.js 13 and Cloud Development Kit (CDK) for Terraform</h2>
                     <h1 className="text-5xl font-bold mb-7">Course Description:</h1>
                     <p className="text-slate-600 font-medium text-lg mb-10">
                     The objective of this course is to teach participants to develop customer-facing planet-scale Websites, Full-Stack Apps and templates, Dashboards, and Muti-Cloud Serverless APIs. By the end of the quarter, the participants will be able to develop and deploy web platforms like Facebook, Shopify, etc. The technologies covered in this course will include Next.js 13, Figma, Tailwind CSS, Chakra UI, tRPC, QraphQL, Prisma, Cockroachdb Serverless (PostgreSQL Compatible), AWS Serverless Technologies, and Cloud Development Kit for Terraform (CDKTF).
                     </p>
                     <div className="flex flex-col lg:flex-row mb-10">
-                        <div className="flex flex-col basis-1/2 justify-between p-10 border-4 border-blue-500 rounded-l-lg">
+                        <div className="flex flex-col basis-1/2 justify-between p-10 border-4 border-blue-500 rounded-t-lg lg:rounded-tr-none lg:rounded-l-lg">
                             <h2 className="text-3xl font-bold mb-2">Core Track</h2>
                             <h3 className="text-blue-500 font-medium text-lg">(Common in all Specializations)</h3>
                         </div>
-                        <div className="flex flex-col basis-1/2 justify-between p-10 border-4 border-blue-500 rounded-r-lg bg-blue-500">
+                        <div className="flex flex-col basis-1/2 justify-between p-10 border-4 border-blue-500 rounded-b-lg lg:rounded-bl-none lg:rounded-r-lg bg-blue-500">
                             <h2 className="text-3xl font-bold text-white mb-2">
                                 Duration
                             </h2>
@@ -47,7 +47,7 @@ function Course() {
                     <p className="text-lg text-slate-600 mb-6">
                         Designing and Prototyping Interfaces with Figma: Learn essential UX/UI design principles by creating interactive prototypes for mobile, tablet, and desktop by Fabio Staiano
                         <br />
-                        <a className="text-blue-500 underline" href='https://www.amazon.com/Designing-Prototyping-Interfaces-Figma-interactive/dp/180056418X/ref=sr_1_1_sspa'>https://www.amazon.com/Designing-Prototyping-Interfaces-Figma-interactive/dp/180056418X/ref=sr_1_1_sspa</a>
+                        <a className="text-blue-500 underline" href='https://www.amazon.com/Designing-Prototyping-Interfaces-Figma-interactive/dp/180056418X/ref=sr_1_1_sspa'>Designing Prototype Interfaces in Figma</a>
                         <br />
                         <a className="text-blue-500 underline" href='https://www.figma.com/community/file/768809027799962739'>Figma Design Kit for TailwindCSS</a>
                         <br />

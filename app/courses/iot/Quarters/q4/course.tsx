@@ -43,7 +43,7 @@ function Course() {
                     </div>
                 </div>
                 {/* Right Side */}
-                <div className="lg:w-4/12 z-10 lg:mt-0 mt-10">
+                <div className="lg:w-4/12 lg:mt-0 mt-10">
                     <div className="sticky">
                         <div className="flex flex-col border shadow-xl rounded-lg py-6 px-6">
                             <h2 className="font-bold text-xl mb-4">Program Structure</h2>

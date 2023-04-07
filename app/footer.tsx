@@ -11,15 +11,15 @@ function Footer() {
   return (
     <div className="border-t-2">
         <Wrapper>
-            <div className="grid grid-cols-2 gap-x-44 mb-10 mt-10">
+            <div className="flex flex-wrap gap-x-10 mb-10 mt-10">
                 {/* Left Side */}
-                <div className="col-span-1">
+                <div className="">
                     <div className="mb-5">
                         <Link href="/">
                             <Image src={Panaverse} alt="" height={90} />
                         </Link>
                     </div>
-                    <p className="text-xl text-slate-600 mb-5">
+                    <p className="text-xl text-slate-600 mb-5 lg:max-w-[950px]">
                         Certified Web 3.0 and Metaverse Developer A One and Quarter Years Panaverse DAO Earn as you Learn Program Getting Ready for the Next Generation of the Internet
                     </p>
                     <div className="inline-flex gap-x-5">
@@ -46,9 +46,9 @@ function Footer() {
                     </div>
                 </div>
                 {/* Right Side */}
-                <div className="grid grid-cols-2">
+                <div className="flex flex-wrap gap-x-16 gap-y-10 mt-5 sm:mt-0 sm:gap-y-0">
                     {/* Programs */}
-                    <div className="cols-span-1">
+                    <div className="flex flex-col justify-between">
                         <h2 className="font-semibold text-xl">
                             Programs
                         </h2>
@@ -63,7 +63,7 @@ function Footer() {
                         </div>
                     </div>
                     {/* Pages */}
-                    <div>
+                    <div className="flex flex-col">
                         <h2 className="text-xl font-semibold">
                             Pages
                         </h2>

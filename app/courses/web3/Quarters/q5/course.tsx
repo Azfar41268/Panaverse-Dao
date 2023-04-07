@@ -6,9 +6,9 @@ function Course() {
   return (
     <div>
         <Wrapper>
-            <div className="flex gap-x-28">
+            <div className="flex flex-wrap gap-x-28">
                 {/* Left Side */}
-                <div className="lg:w-8/12">
+                <div className="w-full lg:w-7/12 order-last lg:order-none">
                     <h2 className="text-xl font-semibold text-blue-500 mt-10 mb-4">MV-361: Developing Planet-Scale Open Virtual and Augmented Metaverse Experiences</h2>
                     <h1 className="text-5xl font-bold mb-6">Course Description: </h1>
                     <p className="text-lg text-slate-600 mb-10">
@@ -18,11 +18,11 @@ function Course() {
                         it should just be the web. We just have to extend online responsive design from mobile to desktop to 3D, Augmented Reality, and Virtual Reality. 
                         This course will teach you how to build the Open Social Spatial Web with WebXR and WebGPU technologies.
                     </p>
-                    <div className="flex mb-10">
-                        <div className="basis-1/2 justify-between border-4 border-blue-500 rounded-l-lg p-10">
+                    <div className="flex flex-col lg:flex-row mb-10">
+                        <div className="basis-1/2 justify-between border-4 border-blue-500 rounded-t-lg lg:rounded-tr-none lg:rounded-l-lg p-10">
                             <h1 className="text-4xl font-bold mt-4 ml-4">Specialized Track</h1>
                         </div>
-                        <div className="basis-1/2 flex flex-col justify-between border-4 border-blue-500 rounded-r-lg p-10 bg-blue-500">
+                        <div className="basis-1/2 flex flex-col justify-between border-4 border-blue-500 rounded-b-lg lg:rounded-bl-none lg:rounded-r-lg p-10 bg-blue-500">
                             <h2 className="text-3xl text-white font-semibold">
                                 Duration
                             </h2>
@@ -84,7 +84,7 @@ function Course() {
                     </p>
                 </div>
                 {/* Right Side */}
-                <div className="lg:w-3/12 z-10 lg:mt-0 mt-10">
+                <div className="lg:w-3/12 lg:mt-0 mt-10">
                     <div className="sticky">
                         <div className="flex flex-col border shadow-xl rounded-lg py-6 px-6">
                             <h2 className="font-bold text-xl mb-4">Program Structure</h2>
