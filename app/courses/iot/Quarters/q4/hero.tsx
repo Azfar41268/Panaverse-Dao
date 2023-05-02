@@ -11,8 +11,8 @@ function Hero() {
           <div className='relative'>
             <div className="flex flex-col lg:flex-row justify-between items-center">
               {/* Content */}
-              <div className='mt-10 lg:mt-0'>
-              <h1 className="lg:text-[480px] md:text-[500px] text-[300px] text-sky-500 font-bold absolute -z-10 -top-24 lg:-top-32 md:-top-48 -left-12 md:left-10 lg:-left-16 opacity-30">Q4</h1>
+              <div className='mt-10 lg:mt-0 max-w-xl'>
+              <h1 className="lg:text-[480px] md:text-[500px] text-[300px] text-sky-500 font-bold absolute -z-10 -top-24 lg:-top-28 md:-top-48 -left-12 md:left-10 lg:-left-16 opacity-30">Q4</h1>
                 <h2 className="text-2xl font-bold text-sky-500">Specialized Track</h2>
                 <h1 className="text-5xl font-bold text-white mt-4">Ambient Computing and IoT Specialization</h1>
                 <h4 className="text-white text-lg font-normal mt-5">The Ambient Computing and IoT Specialization focuses on building Smart Homes, Offices, Factories, and Cities using Voice computing, Matter Protocol, and Embedded Devices.</h4>
