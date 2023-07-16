@@ -9,7 +9,7 @@ import Twit from "public/twitter.png"
 
 function Footer() {
   return (
-    <div className="border-t-2">
+    <div className="border-t-2 sticky">
         <Wrapper>
             <div className="flex flex-wrap gap-x-10 mb-10 mt-10">
                 {/* Left Side */}

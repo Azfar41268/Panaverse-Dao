@@ -24,7 +24,7 @@ function Course() {
                     </div>
                     {/* Course Outling */}
                     <div className="flex flex-col md:flex-row h-[200px] justify-between mb-52 md:mb-10">
-                        <div className="text-3xl font-bold justify-center basis-1/2 border-4 border-blue-500 rounded-t-lg md:rounded-tr-none md:rounded-l-lg p-10 pt-20">
+                        <div className="text-3xl font-bold flex flex-col justify-center items-center basis-1/2 border-4 border-blue-500 rounded-t-lg md:rounded-tr-none md:rounded-l-lg p-10 pt-20">
                             Specialized Program
                         </div>
                         <div className="justify-center basis-1/2 p-10 border-4 border-blue-500 rounded-b-lg md:rounded-bl-none md:rounded-r-lg bg-blue-500 pt-16">
@@ -48,7 +48,7 @@ function Course() {
                     </div>
                 </div>
                 {/* Right Side */}
-                <div className="lg:w-4/12 z-10 lg:mt-0 mt-10">
+                <div className="lg:w-4/12 z-10 lg:mt-0 mt-10 sticky">
                     <div className="sticky">
                         <div className="flex flex-col border shadow-xl rounded-lg py-6 px-6">
                             <h2 className="font-bold text-xl mb-4">Program Structure</h2>

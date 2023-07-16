@@ -135,7 +135,7 @@ function Course() {
                     </p>
                 </div>
                 {/* Right Side */}
-                <div className="lg:w-3/12 h-full mt-10 lg:mt-5">
+                <div className="lg:w-3/12 h-full mt-10 lg:mt-5 bg-scroll">
                     <div className="border shadow-xl p-5 h-auto rounded-lg sticky">
                         <h2 className="text-2xl font-bold mb-3">Program Structure</h2>
                         <p className="text-lg text-slate-600 font-medium mb-3">Every participant of the program will cover the following 3 qaurters.</p>
